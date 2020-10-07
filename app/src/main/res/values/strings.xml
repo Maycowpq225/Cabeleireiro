@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sorteio</string>
+    <string name="linhasLogo">Linhas do logo</string>>
+    <string name="iconeprincipaldologo">Icone principal do logo</string>>
+    <string name="hairSalor">Haír Salor</string>>
+    <string name="bemvindo">Bem-vindo</string>>
+    <string name="agendeAquiSuaVisita">Agende aqui sua visita!</string>>
+    <string name="email">E-mail</string>>
+    <string name="senha">Senha</string>>
+    <string name="fazerCadastro">Fazer Cadastro</string>>
+    <string name="login">Login</string>>
+    <string name="backGroundLogin">Back Ground Login</string>>
+</resources>
