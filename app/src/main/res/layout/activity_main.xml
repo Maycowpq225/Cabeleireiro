@@ -130,15 +130,15 @@
             android:id="@+id/digitar_email1_login"
             android:layout_width="308dp"
             android:layout_height="43dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="69dp"
             android:ems="10"
             android:hint="@string/DigiteSeuEmailAqui"
             android:inputType="textPersonName"
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/email1_cadastro"
+            app:layout_constraintStart_toEndOf="@+id/email1_login"
             app:layout_constraintTop_toBottomOf="@+id/faca_registro" />
 
         <ImageView
@@ -169,15 +169,15 @@
             android:id="@+id/digitar_senha_login"
             android:layout_width="308dp"
             android:layout_height="43dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="116dp"
             android:ems="10"
             android:hint="@string/DigiteSuaSenhaAqui"
             android:inputType="textPassword"
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/senha1_cadastro"
+            app:layout_constraintStart_toEndOf="@+id/senha1_login"
             app:layout_constraintTop_toBottomOf="@+id/faca_registro" />
 
         <ImageView
