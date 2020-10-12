@@ -9,5 +9,14 @@
     <string name="senha">Senha</string>>
     <string name="fazerCadastro">Fazer Cadastro</string>>
     <string name="login">Login</string>>
-    <string name="backGroundLogin">Back Ground Login</string>>
+    <string name="backGroundLogin">Back Ground Login</string>
+    <string name="massage_conexao_criada_com_sucesso">Conexao criada com sucesso!</string>>
+    <string name="DigiteSeuEmailAqui">Digite seu e-mail aqui!</string>>
+    <string name="DigiteSuaSenhaAqui">Digite sua senha aqui!</string>
+    <string name="fa_a_seu_registo">Faça seu registo!</string>
+    <string name="digite_sua_senha_novamente">Digite sua senha novamente</string>
+    <string name="registrar">Registrar</string>>
+    <string name="nome">Nome</string>>
+    <string name="digite_seu_nome_aqui">Digite seu nome aqui!</string>>
+
 </resources>
