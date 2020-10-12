@@ -127,7 +127,7 @@
             app:srcCompat="@drawable/linha_email_branca" />
 
         <TextView
-            android:id="@+id/email1_cadastro"
+            android:id="@+id/email1_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -146,6 +146,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="76dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/DigiteSeuEmailAqui"
@@ -171,7 +173,7 @@
             app:srcCompat="@drawable/linha_email_branca" />
 
         <TextView
-            android:id="@+id/senha1_cadastro"
+            android:id="@+id/senha1_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -190,8 +192,8 @@
             android:layout_marginStart="70dp"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="116dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/DigiteSuaSenhaAqui"
@@ -234,6 +236,8 @@
             android:layout_width="308dp"
             android:layout_height="43dp"
             android:layout_marginTop="156dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/digite_sua_senha_novamente"

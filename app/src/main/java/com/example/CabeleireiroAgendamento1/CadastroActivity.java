@@ -1,15 +1,12 @@
 package com.example.CabeleireiroAgendamento1;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.util.AndroidRuntimeException;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -18,6 +15,9 @@ import com.example.CabeleireiroAgendamento1.database.AgendamentoCabeleireiroOpen
 import com.example.CabeleireiroAgendamento1.dominio.entidades.Cliente;
 import com.example.CabeleireiroAgendamento1.dominio.repositorio.ClienteRepositorio;
 
+/**
+ * classe que agrega funções ao layout de cadastro
+ */
 public class CadastroActivity extends AppCompatActivity {
 
     private SQLiteDatabase conexao;
@@ -28,9 +28,12 @@ public class CadastroActivity extends AppCompatActivity {
     private EditText digitar_email1_cadastro = null;
     private EditText digitar_senha1_cadastro = null;
     private EditText digitar_senha2_cadastro = null;
-    private boolean cadastro = false;
 
-
+    /**
+     * Instancia o layout e faz conexão com o banco de dados
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +41,12 @@ public class CadastroActivity extends AppCompatActivity {
         criarConexao(this);
     }
 
-    public void validarTodosCamposEEscrever(View e) throws InterruptedException {
+    /**
+     * Valida se todos os campos foram preenchidos corretamente, apos isso verifica se já existe uma conta com o email informa, caso nao tenha a função cria um novo cliente no banco de dados.
+     *
+     * @param e não sei oque é, mas sem ele nao aparece o metodo mo activity_cadastro.xml para fazer o click
+     */
+    public void validarTodosCamposEEscrever(View e) {
         digitar_nome1_cadastro = findViewById(R.id.digitar_nome1_cadastro);
         digitar_email1_cadastro = findViewById(R.id.digitar_email1_cadastro);
         digitar_senha1_cadastro = findViewById(R.id.digitar_senha1_cadastro);
@@ -51,8 +59,6 @@ public class CadastroActivity extends AppCompatActivity {
         if (!nome.equalsIgnoreCase("") && !email.equalsIgnoreCase("") && !senha.equalsIgnoreCase("") && senha.equals(senha2)) {
 
             cliente = new Cliente(nome, email, senha);
-            System.out.println(clienteRepositorio.buscarCliente(cliente.email).getEmail());
-            System.out.println(cliente.getEmail());
             if (clienteRepositorio.buscarCliente(cliente.email).getEmail() == null) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(this);
                 dlg.setTitle("Sucesso!");
@@ -76,7 +82,7 @@ public class CadastroActivity extends AppCompatActivity {
                 });
                 AlertDialog alertDialog = dlg.create();
                 alertDialog.show();
-            }else{
+            } else {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(this);
                 dlg.setTitle("ERROR");
                 dlg.setIcon(R.drawable.ic_baseline_error_24);
@@ -101,11 +107,12 @@ public class CadastroActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Voltar para a MainActivity
+     */
     public void voltarParaMain() {
-
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-
     }
 
     /**
@@ -116,16 +123,10 @@ public class CadastroActivity extends AppCompatActivity {
     public void criarConexao(Context context) {
 
         try {
-
             agendamentoCabeleireiroOpenHelper = new AgendamentoCabeleireiroOpenHelper(context);
-
             conexao = agendamentoCabeleireiroOpenHelper.getWritableDatabase();
-
             clienteRepositorio = new ClienteRepositorio(conexao);
-
-
         } catch (SQLException ex) {
-
             AlertDialog.Builder dlg = new AlertDialog.Builder(this);
             dlg.setTitle("erro");
             dlg.setIcon(R.drawable.ic_baseline_error_24);
