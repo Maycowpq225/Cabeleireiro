@@ -18,5 +18,8 @@
     <string name="registrar">Registrar</string>>
     <string name="nome">Nome</string>>
     <string name="digite_seu_nome_aqui">Digite seu nome aqui!</string>>
+    <string name="action_reservas">Minhas Reservas</string>>
+    <string name="action_perfil">Perfil</string>>
+    <string name="action_sair">Sair</string>>
 
 </resources>
