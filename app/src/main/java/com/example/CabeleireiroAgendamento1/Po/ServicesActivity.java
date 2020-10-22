@@ -1,7 +1,8 @@
-package com.example.CabeleireiroAgendamento1;
+package com.example.CabeleireiroAgendamento1.Po;
 
 import android.os.Bundle;
 
+import com.example.CabeleireiroAgendamento1.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -27,11 +28,9 @@ public class ServicesActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.activity_menu, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-
         if (id == R.id.action_reservas) {
             Toast.makeText(getApplicationContext(), "Minhas reservas selecionadas", Toast.LENGTH_LONG).show();
             return true;
@@ -46,8 +45,6 @@ public class ServicesActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Sair selecionado", Toast.LENGTH_LONG).show();
             return true;
         }
-
         return super.onOptionsItemSelected(item);
-
     }
 }

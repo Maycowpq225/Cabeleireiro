@@ -2,16 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- TODO  Fazer o metodo Onclick-->
     <item android:id="@+id/action_reservas"
         android:title="@string/action_reservas"
         android:orderInCategory="100"
         app:showAsAction="never" />
-
+    <!-- TODO  Fazer o metodo Onclick-->
     <item android:id="@+id/action_perfil"
         android:title="@string/action_perfil"
         android:orderInCategory="100"
         app:showAsAction="never" />
-
+    <!-- TODO  Fazer o metodo Onclick-->
     <item android:id="@+id/action_sair"
         android:title="@string/action_sair"
         android:orderInCategory="100"

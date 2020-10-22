@@ -1,4 +1,4 @@
-package com.example.CabeleireiroAgendamento1;
+package com.example.CabeleireiroAgendamento1.Po;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.CabeleireiroAgendamento1.R;
 import com.example.CabeleireiroAgendamento1.database.AgendamentoCabeleireiroOpenHelper;
 import com.example.CabeleireiroAgendamento1.dominio.entidades.Cliente;
 import com.example.CabeleireiroAgendamento1.dominio.repositorio.ClienteRepositorio;

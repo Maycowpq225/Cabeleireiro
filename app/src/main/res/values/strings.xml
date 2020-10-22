@@ -31,4 +31,15 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>>
 
+    <!-- SERVIÇOS -->
+
+    <string name="Servicos">Serviços</string>>
+    <string name="Corte">Corte</string>>
+    <string name="Manicure">Manicure</string>>
+    <string name="Sombrancelha">Sombrancelha</string>>
+    <string name="Pedicure">Pedicure</string>>
+    <string name="Maquiagem">Maquiagem</string>>
+    <string name="Coloracao">coloração</string>>
+    <string name="Capilar">Capilar</string>>
+
 </resources>
