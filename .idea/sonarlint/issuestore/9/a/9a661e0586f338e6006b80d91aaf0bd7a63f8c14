@@ -1,0 +1,24 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ÊØšøÿÿÿÿ
+q
+java:S1104
+"VMake cliente_id a static final constant or non-public and provide accessors if needed.(ñ‰Ò„ùÿÿÿÿ
+f
+java:S1104"PMake nome a static final constant or non-public and provide accessors if needed.(µ©Ñ¸
+l
+java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ
+l
+java:S1104"QMake senha a static final constant or non-public and provide accessors if needed.(…‡Ý£úÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'android.database.sqlite.SQLiteDatabase'.(ãµèÈùÿÿÿÿ
+U
+java:S1128":Remove this unused import 'android.database.SQLException'.(ø‹çëþÿÿÿÿ
+‡
+java:S1128"lRemove this unused import 'com.example.CabeleireiroAgendamento1.database.AgendamentoCabeleireiroOpenHelper'.(‚Ý±ºúÿÿÿÿ
+–
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ççè
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áíßÌúÿÿÿÿ
+o	java:S116
+"URename this field "cliente_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ‰Ò„ùÿÿÿÿ
+c	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’×ËÞ

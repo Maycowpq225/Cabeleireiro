@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Po.CalendarActivity"></activity>
         <activity
             android:name=".Po.ServicesActivity"
             android:label="@string/hairSalor"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Po.CadastroActivity" />
         <activity android:name=".Po.MainActivity">
             <intent-filter>

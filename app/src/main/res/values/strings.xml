@@ -32,7 +32,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>>
 
     <!-- SERVIÇOS -->
-
     <string name="Servicos">Serviços</string>>
     <string name="Corte">Corte</string>>
     <string name="Manicure">Manicure</string>>
@@ -41,5 +40,12 @@
     <string name="Maquiagem">Maquiagem</string>>
     <string name="Coloracao">coloração</string>>
     <string name="Capilar">Capilar</string>>
+
+    <!-- CALENDARIO -->
+    <string name="CorteCalendar">Corte</string>>
+    <string name="preco">Preço:</string>>
+    <string name="MediaDeTempo">Média de tempo:</string>>
+    <string name="DiasDisponiveis">Dias Disponíveis:</string>>
+    <string name="Voltar">Voltar</string>>
 
 </resources>

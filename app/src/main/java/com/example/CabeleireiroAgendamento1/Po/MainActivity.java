@@ -7,6 +7,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CalendarView;
 import android.widget.TextView;
 
 import com.example.CabeleireiroAgendamento1.R;
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         String senha = digitar_senha_login.getText().toString();
         cliente = clienteRepositorio.buscarCliente(email);
        if(!email.equalsIgnoreCase("") && !senha.equalsIgnoreCase("") && cliente.getEmail() != null && cliente.getSenha().equals(senha)){
-           Intent intent = new Intent(this, ServicesActivity.class);
+           Intent intent = new Intent(this, CalendarActivity.class);
            startActivity(intent);
             this.finish();
         }else{
