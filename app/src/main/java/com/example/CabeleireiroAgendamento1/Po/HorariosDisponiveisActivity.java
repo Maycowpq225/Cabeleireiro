@@ -3,24 +3,20 @@ package com.example.CabeleireiroAgendamento1.Po;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.content.BroadcastReceiver;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.CalendarView;
 import android.widget.Toast;
 
 import com.example.CabeleireiroAgendamento1.R;
 
-public class CalendarActivity extends AppCompatActivity {
-
-    CalendarView calendarView;
+public class HorariosDisponiveisActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendar);
-        Toolbar toolbar = findViewById(R.id.toolbarCalendar);
+        setContentView(R.layout.activity_horarios_disponiveis);
+        Toolbar toolbar = findViewById(R.id.toolbarCalendarHorarios);
         setSupportActionBar(toolbar);
     }
     @Override

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Po.CalendarActivity"></activity>
+        <activity android:name=".Po.HorariosDisponiveisActivity"></activity>
+        <activity android:name=".Po.CalendarActivity" />
         <activity
             android:name=".Po.ServicesActivity"
             android:label="@string/hairSalor"

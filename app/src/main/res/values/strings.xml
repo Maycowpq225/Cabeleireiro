@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Hair Salor</string>
+    <string name="app_name">Hair Salon</string>
     <string name="linhasLogo">Linhas do logo</string>>
     <string name="iconeprincipaldologo">Icone principal do logo</string>>
-    <string name="hairSalor">Haír Salor</string>>
+    <string name="hairSalor">Haír Salon</string>>
     <string name="bemvindo">Bem-vindo</string>>
     <string name="agendeAquiSuaVisita">Agende aqui sua visita!</string>>
     <string name="email">E-mail</string>>
@@ -35,7 +35,7 @@
     <string name="Servicos">Serviços</string>>
     <string name="Corte">Corte</string>>
     <string name="Manicure">Manicure</string>>
-    <string name="Sombrancelha">Sombrancelha</string>>
+    <string name="Sombrancelha">Sobrancelha</string>>
     <string name="Pedicure">Pedicure</string>>
     <string name="Maquiagem">Maquiagem</string>>
     <string name="Coloracao">coloração</string>>
@@ -47,5 +47,9 @@
     <string name="MediaDeTempo">Média de tempo:</string>>
     <string name="DiasDisponiveis">Dias Disponíveis:</string>>
     <string name="Voltar">Voltar</string>>
+
+    <!-- HORARIOS DISPONIVEIS -->
+    <string name="horariosDisponiveis">Horários Disponíveis</string>>
+    <string name="avancar">Avançar</string>>
 
 </resources>

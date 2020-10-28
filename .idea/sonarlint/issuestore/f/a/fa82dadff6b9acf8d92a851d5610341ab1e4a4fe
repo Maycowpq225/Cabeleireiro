@@ -1,17 +1,20 @@
 
-s	java:S116"^Rename this field "digitar_senha_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÆ–€
->
-java:S1172$"(Remove this unused method parameter "e".(éÎÃ
-x
-java:S1450"bRemove the "digitar_senha_login" field and declare it as a local variable in the relevant methods.(ãÆ–€
-Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±
+l
+java:S1450"VRemove the "conexao" field and declare it as a local variable in the relevant methods.(ÎÖ¾
+s	java:S116"^Rename this field "digitar_senha_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÆ–€
+U
+java:S1128
+"8Remove this unused import 'android.widget.CalendarView'.(úŞÒ¨8õ“–Õ.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ
 l
-java:S1450"VRemove the "cliente" field and declare it as a local variable in the relevant methods.(Ó…ß®
-y	java:S116"_Rename this field "digitar_email1_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÀş·ùÿÿÿÿ
-†
-java:S1450"pRemove the "agendamentoCabeleireiroOpenHelper" field and declare it as a local variable in the relevant methods.(ŞÌå¥
+java:S1450"VRemove the "cliente" field and declare it as a local variable in the relevant methods.(Ó…ß®
+x
+java:S1450"bRemove the "digitar_senha_login" field and declare it as a local variable in the relevant methods.(ãÆ–€
+>
+java:S1172%"(Remove this unused method parameter "e".(éÎÃ
 ~
-java:S1450"cRemove the "digitar_email1_login" field and declare it as a local variable in the relevant methods.(ŸÀş·ùÿÿÿÿ
-l
-java:S1450"VRemove the "conexao" field and declare it as a local variable in the relevant methods.(ÎÖ¾
+java:S1450"cRemove the "digitar_email1_login" field and declare it as a local variable in the relevant methods.(ŸÀş·ùÿÿÿÿ
+y	java:S116"_Rename this field "digitar_email1_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÀş·ùÿÿÿÿ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±
+†
+java:S1450"pRemove the "agendamentoCabeleireiroOpenHelper" field and declare it as a local variable in the relevant methods.(ŞÌå¥
