@@ -11,13 +11,13 @@ import android.widget.Toast;
 
 import com.example.CabeleireiroAgendamento1.R;
 
-public class HorariosDisponiveisActivity extends AppCompatActivity {
+public class HorarioMarcadoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_horarios_disponiveis);
-        Toolbar toolbar = findViewById(R.id.toolbarCalendarHorarios);
+        setContentView(R.layout.activity_horario_marcado);
+        Toolbar toolbar = findViewById(R.id.toolbarHorarioMarcado);
         setSupportActionBar(toolbar);
     }
     @Override

@@ -35,10 +35,10 @@
     <string name="Servicos">Serviços</string>>
     <string name="Corte">Corte</string>>
     <string name="Manicure">Manicure</string>>
-    <string name="Sombrancelha">Sobrancelha</string>>
+    <string name="Sobrancelha">Sobrancelha</string>>
     <string name="Pedicure">Pedicure</string>>
     <string name="Maquiagem">Maquiagem</string>>
-    <string name="Coloracao">coloração</string>>
+    <string name="Coloracao">Coloração</string>>
     <string name="Capilar">Capilar</string>>
 
     <!-- CALENDARIO -->
@@ -51,5 +51,11 @@
     <!-- HORARIOS DISPONIVEIS -->
     <string name="horariosDisponiveis">Horários Disponíveis</string>>
     <string name="avancar">Avançar</string>>
+
+    <!-- HORARIO MARCADO -->
+    <string name="parabens">Parabéns!</string>>
+    <string name="horarioReservado">Seu horário foi reservado</string>>
+    <string name="ComSucesso">com sucesso!</string>>
+    <string name="Menu">Menu</string>>
 
 </resources>

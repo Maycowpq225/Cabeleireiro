@@ -1,9 +1,47 @@
 
-V	java:S110"<This class has 9 parents which is greater than 5 authorized.(—¢¸Œùÿÿÿÿ
+T
+java:S1135z"2Complete the task associated to this TODO comment.(‹ãú´ùÿÿÿÿ8ú¹²¨Ø.
+S
+java:S2696("6Make the enclosing method "static" or remove this set.(Ö—8©¥²¨Ø.
+i
+java:S1192)"GDefine a constant instead of duplicating this literal "1 Hora" 4 times.(³ÈÊ˜ıÿÿÿÿ8ú¹²¨Ø.
+X
+java:S26965"6Make the enclosing method "static" or remove this set.(–²—ùÿÿÿÿ8ºí ¨Ø.
+S
+java:S2696j"6Make the enclosing method "static" or remove this set.(Å”ãĞ8¼î±¨Ø.
+X
+java:S2696)"6Make the enclosing method "static" or remove this set.(³ÈÊ˜ıÿÿÿÿ8ú¹²¨Ø.
+X
+java:S2696C"6Make the enclosing method "static" or remove this set.(³ÈÊ˜ıÿÿÿÿ8ú¹²¨Ø.
+S
+java:S2696k"6Make the enclosing method "static" or remove this set.(Ï´Ò˜8ú¹²¨Ø.
+X
+java:S2696]"6Make the enclosing method "static" or remove this set.(³ÈÊ˜ıÿÿÿÿ8ú¹²¨Ø.
+O
+java:S1135t"2Complete the task associated to this TODO comment.(ù®„û8ú¹²¨Ø.
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(—¢¸Œùÿÿÿÿ
+S
+java:S2696A"6Make the enclosing method "static" or remove this set.(¤‰ÖÉ8šÄ¤¨Ø.
+S
+java:S2696h"6Make the enclosing method "static" or remove this set.(³Î“À8¼î±¨Ø.
+R
+java:S26964"6Make the enclosing method "static" or remove this set.(¦¹åd8¸çŠ¦Ø.
+X
+java:S2696P"6Make the enclosing method "static" or remove this set.(³ÈÊ˜ıÿÿÿÿ8ú¹²¨Ø.
+S
+java:S26966"6Make the enclosing method "static" or remove this set.(Ï´Ò˜8ú¹²¨Ø.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ
-P
-java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8¬ãëÔ.
-„
-java:S1128"bRemove this unused import 'com.google.android.material.floatingactionbutton.FloatingActionButton'.(ôˆêãÿÿÿÿÿ8ŒÑâëÔ.
-g
-java:S1128"JRemove this unused import 'com.google.android.material.snackbar.Snackbar'.(ë„ƒŠ8¬ãëÔ.
+X
+java:S2696B"6Make the enclosing method "static" or remove this set.(÷±ƒ¦ıÿÿÿÿ8šÄ¤¨Ø.
+S
+java:S2696O"6Make the enclosing method "static" or remove this set.(Ö—8šÄ¤¨Ø.
+S
+java:S2696["6Make the enclosing method "static" or remove this set.(…á‰ƒ8šÄ¤¨Ø.
+X
+java:S2696'"6Make the enclosing method "static" or remove this set.(°‹àşşÿÿÿÿ8©¥²¨Ø.
+S
+java:S2696N"6Make the enclosing method "static" or remove this set.(ışşú8šÄ¤¨Ø.
+S
+java:S2696\"6Make the enclosing method "static" or remove this set.(”´éÂ8šÄ¤¨Ø.
+S
+java:S2696i"6Make the enclosing method "static" or remove this set.(¥Â‡Ë8À³Í¨Ø.

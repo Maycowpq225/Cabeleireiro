@@ -13,3 +13,9 @@ Oapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/ServicesActivity.java
 Kapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/MainActivity.java,f\a\fa82dadff6b9acf8d92a851d5610341ab1e4a4fe
 
 Oapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/CalendarActivity.java,f\5\f5c075b2f70a85cbeceae24ba7be31bff7766409
+Š
+Zapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/HorariosDisponiveisActivity.java,9\a\9a96e7b39924fe16a54494aa4a10b6d44461126b
+…
+Uapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/HorarioMarcadoActivity.java,0\d\0d9fb455efb6ef1b080ca04dbf09c6f9792f3e17
+
+Oapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/CadastroActivity.java,8\4\846197c6256007d95022ab8e24050f33bfad67f9

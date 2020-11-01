@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="1000dp"
     android:background="@drawable/cabelo5"
-    tools:context=".Po.CalendarActivity">
+    tools:context=".Po.HorariosDisponiveisActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:layout_width="411dp"

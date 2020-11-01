@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         String senha = digitar_senha_login.getText().toString();
         cliente = clienteRepositorio.buscarCliente(email);
        if(!email.equalsIgnoreCase("") && !senha.equalsIgnoreCase("") && cliente.getEmail() != null && cliente.getSenha().equals(senha)){
-           Intent intent = new Intent(this, HorariosDisponiveisActivity.class);
+           Intent intent = new Intent(this, ServicesActivity.class);
            startActivity(intent);
             this.finish();
         }else{
