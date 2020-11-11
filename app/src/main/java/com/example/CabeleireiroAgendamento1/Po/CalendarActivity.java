@@ -3,7 +3,6 @@ package com.example.CabeleireiroAgendamento1.Po;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -28,6 +27,8 @@ public class CalendarActivity extends AppCompatActivity {
     private TextView servico2;
     private TextView preco;
     private TextView mediaTempo;
+
+    private CalendarView calendario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,12 +76,14 @@ public class CalendarActivity extends AppCompatActivity {
     public void trocarServico(String servicoTrocar,String servicoTrocar2, String precoTrocar, String mediaTempoTrocar) {
         servico = findViewById(R.id.servico_editar);
         servico.setText(servicoTrocar);
+
         //-----------------------------------------
         servico2 = findViewById(R.id.servico_editar2);
         servico2.setText(servicoTrocar2);
         //-----------------------------------------
         preco = findViewById(R.id.textViewValor);
         preco.setText(precoTrocar);
+
         //-----------------------------------------
         mediaTempo = findViewById(R.id.textViewMediaTempo);
         mediaTempo.setText(mediaTempoTrocar);
@@ -93,6 +96,12 @@ public class CalendarActivity extends AppCompatActivity {
      */
     public void voltarServicos(View view) {
         Intent intent = new Intent(this, ServicesActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
+
+    public void avancarServicos(View view){
+        Intent intent = new Intent(this, HorariosDisponiveisActivity.class);
         startActivity(intent);
         this.finish();
     }

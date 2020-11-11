@@ -7,6 +7,7 @@
     android:layout_height="1000dp"
     android:background="@drawable/cabelo5"
     tools:context=".Po.HorariosDisponiveisActivity">
+
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:layout_width="411dp"
@@ -14,6 +15,22 @@
         android:layout_marginTop="80dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
+
+        <TextView
+            android:id="@+id/servico_editar_marcado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:fontFamily="More Fonts..."
+            app:layout_constraintEnd_toEndOf="@+id/textViewHorario"
+            app:layout_constraintStart_toStartOf="@+id/textViewHorario"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHorario"></TextView>
 
         <TextView
             android:id="@+id/textView9"
@@ -33,6 +50,41 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkbox_meat6"></TextView>
 
+
+        <TextView
+            android:id="@+id/textView_preco2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text=""
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:fontFamily="More Fonts..."
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="@+id/textView9"></TextView>
+
+        <TextView
+            android:id="@+id/textView_tempo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text=""
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:fontFamily="More Fonts..."
+            app:layout_constraintBottom_toBottomOf="@+id/textView19"
+            app:layout_constraintStart_toEndOf="@+id/textView19"
+            app:layout_constraintTop_toTopOf="@+id/textView19"></TextView>
+
         <TextView
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
@@ -49,7 +101,7 @@
             app:fontFamily="More Fonts..."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8"></TextView>
+            app:layout_constraintTop_toBottomOf="@+id/textViewHorario"></TextView>
 
         <CheckBox
             android:id="@+id/checkbox_meat1"
@@ -58,6 +110,7 @@
             android:layout_marginStart="22dp"
             android:layout_marginTop="20dp"
             android:text="07:00"
+            android:onClick="desmarcarCheckBox1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -68,6 +121,7 @@
             android:layout_marginStart="22dp"
             android:layout_marginTop="70dp"
             android:text="08:00"
+            android:onClick="desmarcarCheckBox2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -78,6 +132,7 @@
             android:layout_marginStart="22dp"
             android:layout_marginTop="120dp"
             android:text="09:00"
+            android:onClick="desmarcarCheckBox3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -88,6 +143,7 @@
             android:layout_marginStart="22dp"
             android:layout_marginTop="170dp"
             android:text="10:00"
+            android:onClick="desmarcarCheckBox4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -98,6 +154,7 @@
             android:layout_marginStart="22dp"
             android:layout_marginTop="220dp"
             android:text="11:00"
+            android:onClick="desmarcarCheckBox5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -108,6 +165,7 @@
             android:layout_marginStart="22dp"
             android:layout_marginTop="270dp"
             android:text="12:00"
+            android:onClick="desmarcarCheckBox6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -118,6 +176,7 @@
             android:layout_marginStart="120dp"
             android:layout_marginTop="20dp"
             android:text="13:00"
+            android:onClick="desmarcarCheckBox7"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -128,6 +187,7 @@
             android:layout_marginStart="120dp"
             android:layout_marginTop="70dp"
             android:text="14:00"
+            android:onClick="desmarcarCheckBox8"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -138,6 +198,7 @@
             android:layout_marginStart="120dp"
             android:layout_marginTop="120dp"
             android:text="15:00"
+            android:onClick="desmarcarCheckBox9"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -148,6 +209,7 @@
             android:layout_marginStart="120dp"
             android:layout_marginTop="170dp"
             android:text="16:00"
+            android:onClick="desmarcarCheckBox10"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -158,6 +220,7 @@
             android:layout_marginStart="120dp"
             android:layout_marginTop="220dp"
             android:text="17:00"
+            android:onClick="desmarcarCheckBox11"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -168,11 +231,12 @@
             android:layout_marginStart="120dp"
             android:layout_marginTop="270dp"
             android:text="18:00"
+            android:onClick="desmarcarCheckBox12"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textViewHorario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -193,7 +257,7 @@
             app:layout_constraintTop_toTopOf="parent"></TextView>
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -224,10 +288,11 @@
             android:textSize="25sp"
             android:textStyle="bold"
             android:typeface="normal"
+            android:onClick="voltarCalendario"
             app:fontFamily="More Fonts..."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"></TextView>
+            app:layout_constraintTop_toBottomOf="@+id/textView19"></TextView>
 
         <Button
             android:id="@+id/botao_registrar"
@@ -241,7 +306,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
             tools:ignore="MissingConstraints" />
 
 

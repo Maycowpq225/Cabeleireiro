@@ -39,6 +39,9 @@ public class ServicesActivity extends AppCompatActivity {
         CalendarActivity.servicoMudar = getString(R.string.Corte);
         CalendarActivity.precoTrocar = "20,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
+        HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Corte);
+        HorariosDisponiveisActivity.precoTrocar1 = "20,00";
+        HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
         this.finish();
     }
     /**
@@ -52,6 +55,9 @@ public class ServicesActivity extends AppCompatActivity {
         CalendarActivity.servicoMudar = getString(R.string.Manicure);
         CalendarActivity.precoTrocar = "50,00";
         CalendarActivity.mediaTempoTrocar = "2 Hora";
+        HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Manicure);
+        HorariosDisponiveisActivity.precoTrocar1 = "50,00";
+        HorariosDisponiveisActivity.mediaTempoTrocar1 = "2 Hora";
         this.finish();
     }
     /**
@@ -65,6 +71,9 @@ public class ServicesActivity extends AppCompatActivity {
         CalendarActivity.servicoMudar = getString(R.string.Sobrancelha);
         CalendarActivity.precoTrocar = "40,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
+        HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Sobrancelha);
+        HorariosDisponiveisActivity.precoTrocar1 = "40,00";
+        HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
         this.finish();
     }
     /**
@@ -78,6 +87,9 @@ public class ServicesActivity extends AppCompatActivity {
         CalendarActivity.servicoMudar = getString(R.string.Pedicure);
         CalendarActivity.precoTrocar = "20,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
+        HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Pedicure);
+        HorariosDisponiveisActivity.precoTrocar1 = "20,00";
+        HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
         this.finish();
     }
     /**
@@ -91,6 +103,9 @@ public class ServicesActivity extends AppCompatActivity {
         CalendarActivity.servicoMudar = getString(R.string.Maquiagem);
         CalendarActivity.precoTrocar = "30,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
+        HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Maquiagem);
+        HorariosDisponiveisActivity.precoTrocar1 = "30,00";
+        HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
         this.finish();
     }
     /**
@@ -105,6 +120,10 @@ public class ServicesActivity extends AppCompatActivity {
         CalendarActivity.servicoMudar2 = getString(R.string.Capilar);
         CalendarActivity.precoTrocar = "60,00";
         CalendarActivity.mediaTempoTrocar = "2 Hora";
+        HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Coloracao);
+        HorariosDisponiveisActivity.servicoMudar21 = getString(R.string.Capilar);
+        HorariosDisponiveisActivity.precoTrocar1 = "60,00";
+        HorariosDisponiveisActivity.mediaTempoTrocar1 = "2 Hora";
         this.finish();
     }
 
