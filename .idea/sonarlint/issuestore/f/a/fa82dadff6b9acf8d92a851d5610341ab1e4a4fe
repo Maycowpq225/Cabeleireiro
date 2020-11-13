@@ -1,20 +1,20 @@
 
-y	java:S116"_Rename this field "digitar_email1_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÀş·ùÿÿÿÿ
-s	java:S116"^Rename this field "digitar_senha_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÆ–€
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ
 †
 java:S1450"pRemove the "agendamentoCabeleireiroOpenHelper" field and declare it as a local variable in the relevant methods.(ŞÌå¥
-x
-java:S1450"bRemove the "digitar_senha_login" field and declare it as a local variable in the relevant methods.(ãÆ–€
-U
-java:S1128
-"8Remove this unused import 'android.widget.CalendarView'.(úŞÒ¨8õ“–Õ.
->
-java:S1172%"(Remove this unused method parameter "e".(éÎÃ
-l
-java:S1450"VRemove the "conexao" field and declare it as a local variable in the relevant methods.(ÎÖ¾
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ
 l
 java:S1450"VRemove the "cliente" field and declare it as a local variable in the relevant methods.(Ó…ß®
+>
+java:S1172%"(Remove this unused method parameter "e".(éÎÃ
+s	java:S116"^Rename this field "digitar_senha_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÆ–€
+y	java:S116"_Rename this field "digitar_email1_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÀş·ùÿÿÿÿ
 Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±
 ~
 java:S1450"cRemove the "digitar_email1_login" field and declare it as a local variable in the relevant methods.(ŸÀş·ùÿÿÿÿ
+U
+java:S1128
+"8Remove this unused import 'android.widget.CalendarView'.(úŞÒ¨8õ“–Õ.
+l
+java:S1450"VRemove the "conexao" field and declare it as a local variable in the relevant methods.(ÎÖ¾
+x
+java:S1450"bRemove the "digitar_senha_login" field and declare it as a local variable in the relevant methods.(ãÆ–€

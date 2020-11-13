@@ -206,4 +206,9 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
             }
         }
     }
+    public void horarioMarcadoComSucesso(View view){
+        Intent intent = new Intent(this, HorarioMarcadoActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
 }

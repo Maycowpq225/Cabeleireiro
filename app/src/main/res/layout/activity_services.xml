@@ -8,8 +8,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:background="@android:color/white"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -17,16 +17,15 @@
             android:orientation="vertical" />
     </ScrollView>
 
-
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:backgroundTint="@color/corPink"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
     <include layout="@layout/content_services" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="@color/corPink"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

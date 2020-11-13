@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.CabeleireiroAgendamento1.R;
@@ -46,5 +47,10 @@ public class HorarioMarcadoActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    public void voltarParaOMenuPrincipal(View view){
+        Intent intent = new Intent(this, ServicesActivity.class);
+        startActivity(intent);
+        this.finish();
     }
 }

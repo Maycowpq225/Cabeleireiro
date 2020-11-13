@@ -1,19 +1,19 @@
 
-
-java:S1450"pRemove the "agendamentoCabeleireiroOpenHelper" field and declare it as a local variable in the relevant methods.(ŞÌå¥8ãŸ»ëÔ.
-ƒ
-java:S1450"fRemove the "digitar_senha2_cadastro" field and declare it as a local variable in the relevant methods.(µÙº8ãŸ»ëÔ.
 ~	java:S116"bRename this field "digitar_senha2_cadastro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÙº8ãŸ»ëÔ.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ8ãŸ»ëÔ.
-s
-java:S1450"VRemove the "conexao" field and declare it as a local variable in the relevant methods.(ÎÖ¾8ãŸ»ëÔ.
-]	java:S110"<This class has 9 parents which is greater than 5 authorized.(áØûÂùÿÿÿÿ8ãŸ»ëÔ.
 ‚	java:S116"aRename this field "digitar_nome1_cadastro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¾…öøÿÿÿÿ8ãŸ»ëÔ.
-‡
-java:S1450"eRemove the "digitar_nome1_cadastro" field and declare it as a local variable in the relevant methods.(Š¾…öøÿÿÿÿ8ãŸ»ëÔ.
-ˆ
-java:S1450"fRemove the "digitar_senha1_cadastro" field and declare it as a local variable in the relevant methods.(¿ÿ³şÿÿÿÿ8ãŸ»ëÔ.
 ~	java:S116"bRename this field "digitar_email1_cadastro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¨©8ãŸ»ëÔ.
 ƒ
 java:S1450"fRemove the "digitar_email1_cadastro" field and declare it as a local variable in the relevant methods.(Ø¨©8ãŸ»ëÔ.
+ˆ
+java:S1450"fRemove the "digitar_senha1_cadastro" field and declare it as a local variable in the relevant methods.(¿ÿ³şÿÿÿÿ8ãŸ»ëÔ.
+
+java:S1450"pRemove the "agendamentoCabeleireiroOpenHelper" field and declare it as a local variable in the relevant methods.(ŞÌå¥8ãŸ»ëÔ.
+]	java:S110"<This class has 9 parents which is greater than 5 authorized.(áØûÂùÿÿÿÿ8ãŸ»ëÔ.
+s
+java:S1450"VRemove the "conexao" field and declare it as a local variable in the relevant methods.(ÎÖ¾8ãŸ»ëÔ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ8ãŸ»ëÔ.
+ƒ
+java:S1450"fRemove the "digitar_senha2_cadastro" field and declare it as a local variable in the relevant methods.(µÙº8ãŸ»ëÔ.
+‡
+java:S1450"eRemove the "digitar_nome1_cadastro" field and declare it as a local variable in the relevant methods.(Š¾…öøÿÿÿÿ8ãŸ»ëÔ.
 ƒ	java:S116"bRename this field "digitar_senha1_cadastro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÿ³şÿÿÿÿ8ãŸ»ëÔ.

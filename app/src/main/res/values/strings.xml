@@ -58,4 +58,8 @@
     <string name="ComSucesso">com sucesso!</string>>
     <string name="Menu">Menu</string>>
 
+    <!-- Perfil e Reservas -->
+
+    <string name="MinhasReservas">Minhas Reservas:</string>>
+
 </resources>

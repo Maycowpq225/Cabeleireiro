@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Po.HorarioMarcadoActivity"></activity>
+        <activity android:name=".Po.PerfilEReservasActivity"></activity>
+        <activity android:name=".Po.HorarioMarcadoActivity" />
         <activity android:name=".Po.HorariosDisponiveisActivity" />
         <activity android:name=".Po.CalendarActivity" />
         <activity
