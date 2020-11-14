@@ -37,11 +37,15 @@ public class ServicesActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
         CalendarActivity.servicoMudar = getString(R.string.Corte);
+        CalendarActivity.servicoMudar2 = "";
         CalendarActivity.precoTrocar = "20,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
         HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Corte);
         HorariosDisponiveisActivity.precoTrocar1 = "20,00";
         HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
+        PerfilEReservasActivity.precoPerfilReserva_mudar = "20,00";
+        PerfilEReservasActivity.servicoPerfilReserva_mudar=  getString(R.string.Corte);
+        PerfilEReservasActivity.servico2PerfilReserva_mudar= "";
         this.finish();
     }
     /**
@@ -53,11 +57,15 @@ public class ServicesActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
         CalendarActivity.servicoMudar = getString(R.string.Manicure);
+        CalendarActivity.servicoMudar2 = "";
         CalendarActivity.precoTrocar = "50,00";
         CalendarActivity.mediaTempoTrocar = "2 Hora";
         HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Manicure);
         HorariosDisponiveisActivity.precoTrocar1 = "50,00";
         HorariosDisponiveisActivity.mediaTempoTrocar1 = "2 Hora";
+        PerfilEReservasActivity.precoPerfilReserva_mudar = "50,00";
+        PerfilEReservasActivity.servicoPerfilReserva_mudar=  getString(R.string.Manicure);
+        PerfilEReservasActivity.servico2PerfilReserva_mudar= "";
         this.finish();
     }
     /**
@@ -69,11 +77,15 @@ public class ServicesActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
         CalendarActivity.servicoMudar = getString(R.string.Sobrancelha);
+        CalendarActivity.servicoMudar2 = "";
         CalendarActivity.precoTrocar = "40,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
         HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Sobrancelha);
         HorariosDisponiveisActivity.precoTrocar1 = "40,00";
+        PerfilEReservasActivity.precoPerfilReserva_mudar = "40,00";
         HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
+        PerfilEReservasActivity.servicoPerfilReserva_mudar=  getString(R.string.Sobrancelha);
+        PerfilEReservasActivity.servico2PerfilReserva_mudar= "";
         this.finish();
     }
     /**
@@ -85,11 +97,15 @@ public class ServicesActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
         CalendarActivity.servicoMudar = getString(R.string.Pedicure);
+        CalendarActivity.servicoMudar2 = "";
         CalendarActivity.precoTrocar = "20,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
         HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Pedicure);
         HorariosDisponiveisActivity.precoTrocar1 = "20,00";
+        PerfilEReservasActivity.precoPerfilReserva_mudar = "20,00";
         HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
+        PerfilEReservasActivity.servicoPerfilReserva_mudar= getString(R.string.Pedicure);
+        PerfilEReservasActivity.servico2PerfilReserva_mudar= "";
         this.finish();
     }
     /**
@@ -101,11 +117,15 @@ public class ServicesActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
         CalendarActivity.servicoMudar = getString(R.string.Maquiagem);
+        CalendarActivity.servicoMudar2 = "";
         CalendarActivity.precoTrocar = "30,00";
         CalendarActivity.mediaTempoTrocar = "1 Hora";
         HorariosDisponiveisActivity.servicoMudar1 = getString(R.string.Maquiagem);
         HorariosDisponiveisActivity.precoTrocar1 = "30,00";
+        PerfilEReservasActivity.precoPerfilReserva_mudar = "30,00";
         HorariosDisponiveisActivity.mediaTempoTrocar1 = "1 Hora";
+        PerfilEReservasActivity.servicoPerfilReserva_mudar= getString(R.string.Maquiagem);
+        PerfilEReservasActivity.servico2PerfilReserva_mudar= "";
         this.finish();
     }
     /**
@@ -124,6 +144,9 @@ public class ServicesActivity extends AppCompatActivity {
         HorariosDisponiveisActivity.servicoMudar21 = getString(R.string.Capilar);
         HorariosDisponiveisActivity.precoTrocar1 = "60,00";
         HorariosDisponiveisActivity.mediaTempoTrocar1 = "2 Hora";
+        PerfilEReservasActivity.precoPerfilReserva_mudar = "60,00";
+        PerfilEReservasActivity.servicoPerfilReserva_mudar= getString(R.string.Coloracao);
+        PerfilEReservasActivity.servico2PerfilReserva_mudar= getString(R.string.Capilar);
         this.finish();
     }
 
@@ -134,12 +157,18 @@ public class ServicesActivity extends AppCompatActivity {
         if (id == R.id.action_reservas) {
             //TODO fazer tela de reservas
             Toast.makeText(getApplicationContext(), "Minhas reservas selecionadas", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, PerfilEReservasActivity.class);
+            startActivity(intent);
+            this.finish();
             return true;
         }
 
         if (id == R.id.action_perfil) {
             //TODO fazer tela de perfil
             Toast.makeText(getApplicationContext(), "Perfil selecionado", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, PerfilEReservasActivity.class);
+            startActivity(intent);
+            this.finish();
             return true;
         }
 

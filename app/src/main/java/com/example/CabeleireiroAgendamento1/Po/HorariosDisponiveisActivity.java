@@ -73,12 +73,20 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_reservas) {
+            //TODO fazer tela de reservas
             Toast.makeText(getApplicationContext(), "Minhas reservas selecionadas", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, PerfilEReservasActivity.class);
+            startActivity(intent);
+            this.finish();
             return true;
         }
 
         if (id == R.id.action_perfil) {
+            //TODO fazer tela de perfil
             Toast.makeText(getApplicationContext(), "Perfil selecionado", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, PerfilEReservasActivity.class);
+            startActivity(intent);
+            this.finish();
             return true;
         }
 
@@ -119,6 +127,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
     }
 
     public void desmarcarCheckBox1(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat1.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat1.getId()){
                 checkBoxes[i].setChecked(false);
@@ -126,10 +135,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox2(View view){
-        for (CheckBox a:checkBoxes
-        ) {
-            System.out.println(a.getText());
-        }
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat2.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat2.getId()){
                 checkBoxes[i].setChecked(false);
@@ -137,6 +143,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox3(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat3.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat3.getId()){
                 checkBoxes[i].setChecked(false);
@@ -144,6 +151,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox4(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat4.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat4.getId()){
                 checkBoxes[i].setChecked(false);
@@ -151,6 +159,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox5(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat5.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat5.getId()){
                 checkBoxes[i].setChecked(false);
@@ -158,6 +167,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox6(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat6.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat6.getId()){
                 checkBoxes[i].setChecked(false);
@@ -165,6 +175,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox7(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat7.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat7.getId()){
                 checkBoxes[i].setChecked(false);
@@ -172,6 +183,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox8(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat8.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat8.getId()){
                 checkBoxes[i].setChecked(false);
@@ -179,6 +191,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox9(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat9.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat9.getId()){
                 checkBoxes[i].setChecked(false);
@@ -186,6 +199,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox10(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat10.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat10.getId()){
                 checkBoxes[i].setChecked(false);
@@ -193,6 +207,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox11(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat11.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat11.getId()){
                 checkBoxes[i].setChecked(false);
@@ -200,6 +215,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         }
     }
     public void desmarcarCheckBox12(View view){
+        PerfilEReservasActivity.horarioPerfilReserva_mudar = checkbox_meat12.getText().toString();
         for(int i=0;i<checkBoxes.length;i++){
             if(checkBoxes[i].getId() != checkbox_meat12.getId()){
                 checkBoxes[i].setChecked(false);

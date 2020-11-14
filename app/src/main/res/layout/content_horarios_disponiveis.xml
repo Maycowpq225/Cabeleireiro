@@ -81,9 +81,9 @@
             android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="More Fonts..."
-            app:layout_constraintBottom_toBottomOf="@+id/textView19"
-            app:layout_constraintStart_toEndOf="@+id/textView19"
-            app:layout_constraintTop_toTopOf="@+id/textView19"></TextView>
+            app:layout_constraintBottom_toBottomOf="@+id/textView40"
+            app:layout_constraintStart_toEndOf="@+id/textView40"
+            app:layout_constraintTop_toTopOf="@+id/textView40"></TextView>
 
         <TextView
             android:id="@+id/textView13"
@@ -257,7 +257,7 @@
             app:layout_constraintTop_toTopOf="parent"></TextView>
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/textView40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -292,7 +292,7 @@
             app:fontFamily="More Fonts..."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView19"></TextView>
+            app:layout_constraintTop_toBottomOf="@+id/textView40"></TextView>
 
         <Button
             android:id="@+id/botao_registrar"
@@ -307,7 +307,7 @@
             android:onClick="horarioMarcadoComSucesso"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:layout_constraintTop_toBottomOf="@+id/textView40"
             tools:ignore="MissingConstraints" />
 
 

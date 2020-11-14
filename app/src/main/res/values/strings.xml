@@ -61,5 +61,8 @@
     <!-- Perfil e Reservas -->
 
     <string name="MinhasReservas">Minhas Reservas:</string>>
+    <string name="Dia">Dia:</string>>
+    <string name="Horario">Horário:</string>>
+    <string name="Cancelar">Cancelar</string>>
 
 </resources>

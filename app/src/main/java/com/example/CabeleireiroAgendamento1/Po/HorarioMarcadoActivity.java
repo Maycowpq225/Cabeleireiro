@@ -30,12 +30,20 @@ public class HorarioMarcadoActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_reservas) {
+            //TODO fazer tela de reservas
             Toast.makeText(getApplicationContext(), "Minhas reservas selecionadas", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, PerfilEReservasActivity.class);
+            startActivity(intent);
+            this.finish();
             return true;
         }
 
         if (id == R.id.action_perfil) {
+            //TODO fazer tela de perfil
             Toast.makeText(getApplicationContext(), "Perfil selecionado", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, PerfilEReservasActivity.class);
+            startActivity(intent);
+            this.finish();
             return true;
         }
 

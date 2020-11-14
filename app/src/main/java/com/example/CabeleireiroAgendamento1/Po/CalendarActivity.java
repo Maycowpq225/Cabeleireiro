@@ -14,9 +14,10 @@ import android.widget.Toast;
 
 import com.example.CabeleireiroAgendamento1.R;
 
-public class CalendarActivity extends AppCompatActivity {
+import java.sql.Date;
+import java.text.SimpleDateFormat;
 
-    CalendarView calendarView;
+public class CalendarActivity extends AppCompatActivity {
 
     static String servicoMudar;
     static String servicoMudar2;
@@ -36,7 +37,7 @@ public class CalendarActivity extends AppCompatActivity {
         setContentView(R.layout.activity_calendar);
         Toolbar toolbar = findViewById(R.id.toolbarCalendar);
         setSupportActionBar(toolbar);
-        trocarServico(servicoMudar,servicoMudar2,precoTrocar,mediaTempoTrocar);
+        trocarServico(servicoMudar, servicoMudar2, precoTrocar, mediaTempoTrocar);
     }
 
     @Override
@@ -73,7 +74,7 @@ public class CalendarActivity extends AppCompatActivity {
      *
      * @param servicoTrocar
      */
-    public void trocarServico(String servicoTrocar,String servicoTrocar2, String precoTrocar, String mediaTempoTrocar) {
+    public void trocarServico(String servicoTrocar, String servicoTrocar2, String precoTrocar, String mediaTempoTrocar) {
         servico = findViewById(R.id.servico_editar);
         servico.setText(servicoTrocar);
 
@@ -100,7 +101,11 @@ public class CalendarActivity extends AppCompatActivity {
         this.finish();
     }
 
-    public void avancarServicos(View view){
+    public void avancarServicos(View view) {
+        SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("HH:mm:ss");
+        Date date = new Date((calendario = findViewById(R.id.calendarView)).getDate());
+        PerfilEReservasActivity.diaPerfilReserva_mudar = sdf1.format(date);
         Intent intent = new Intent(this, HorariosDisponiveisActivity.class);
         startActivity(intent);
         this.finish();
