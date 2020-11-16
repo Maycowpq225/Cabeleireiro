@@ -1,17 +1,27 @@
 
-s
-java:S1450"VRemove the "servico" field and declare it as a local variable in the relevant methods.(´ñ¤•8Ñè¦Ø.
-H
-java:S1172g"+Remove this unused method parameter "view".(—¢®ï8õàÕ£Û.
-v
-java:S1450"TRemove the "preco" field and declare it as a local variable in the relevant methods.(ïÃÏ—ûÿÿÿÿ8³â“¨Ø.
-s
-java:S1450"WRemove the "servico2" field and declare it as a local variable in the relevant methods.(°ô¼.8‡˜ã£Û.
+K
+java:S1481j")Remove this unused "sdf2" local variable.(Å¶‡­ùÿÿÿÿ8½«½ŸÜ.
 M
-java:S1172a"+Remove this unused method parameter "view".(¼ÓÉÖÿÿÿÿÿ8ªóé§Ø.
+java:S1172b"+Remove this unused method parameter "view".(¼ÓÉÖÿÿÿÿÿ8ªóé§Ø.
 v
-java:S1450"YRemove the "mediaTempo" field and declare it as a local variable in the relevant methods.(ÍÌÛ8ê¡ö§Ø.
+java:S1450"TRemove the "preco" field and declare it as a local variable in the relevant methods.(ïÃÏ—ûÿÿÿÿ8³â“¨Ø.
+X
+java:S2696l"6Make the enclosing method "static" or remove this set.(ü®Íğùÿÿÿÿ8ßºÀ Ü.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ
-V	java:S110"<This class has 9 parents which is greater than 5 authorized.(ôéÍøúÿÿÿÿ
-P
-java:S1068".Remove this unused "calendario" private field.(²¾âôıÿÿÿÿ8šÇ£Û.
+s
+java:S1450"WRemove the "servico2" field and declare it as a local variable in the relevant methods.(°ô¼.8‡˜ã£Û.
+K
+java:S1121k".Extract the assignment out of this expression.(÷—ùŞ8í×¯ŸÜ.
+Z
+java:S1854j"8Remove this useless assignment to local variable "sdf2".(Å¶‡­ùÿÿÿÿ8½«½ŸÜ.
+I
+java:S1874k",Remove this use of "Date"; it is deprecated.(÷—ùŞ8í×¯ŸÜ.
+{
+java:S1450 "YRemove the "calendario" field and declare it as a local variable in the relevant methods.(²¾âôıÿÿÿÿ8í×¯ŸÜ.
+H
+java:S1172h"+Remove this unused method parameter "view".(—¢®ï8õàÕ£Û.
+v
+java:S1450"YRemove the "mediaTempo" field and declare it as a local variable in the relevant methods.(ÍÌÛ8ê¡ö§Ø.
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(ôéÍøúÿÿÿÿ
+s
+java:S1450"VRemove the "servico" field and declare it as a local variable in the relevant methods.(´ñ¤•8Ñè¦Ø.

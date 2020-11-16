@@ -41,9 +41,10 @@ public class MainActivity extends AppCompatActivity {
         String senha = digitar_senha_login.getText().toString();
         cliente = clienteRepositorio.buscarCliente(email);
        if(!email.equalsIgnoreCase("") && !senha.equalsIgnoreCase("") && cliente.getEmail() != null && cliente.getSenha().equals(senha)){
+           PerfilEReservasActivity.NomePerfilReserva_mudar = cliente.getNome();
            Intent intent = new Intent(this, ServicesActivity.class);
            startActivity(intent);
-            this.finish();
+           this.finish();
         }else{
             AlertDialog.Builder dlg = new AlertDialog.Builder(this);
             dlg.setTitle("erro");

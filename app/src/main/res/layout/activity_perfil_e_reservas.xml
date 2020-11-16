@@ -66,11 +66,12 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
         <ImageView
-            android:id="@+id/imageView21"
+            android:id="@+id/imageViewRetangulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:src="@drawable/containerreserva"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewMinhasReservas" />
@@ -81,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
-            android:text="@string/Servicos"
+            android:text=""
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/black"
@@ -89,15 +90,15 @@
             android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="More Fonts..."
-            app:layout_constraintStart_toStartOf="@+id/imageView21"
-            app:layout_constraintTop_toTopOf="@+id/imageView21"></TextView>
+            app:layout_constraintStart_toStartOf="@+id/imageViewRetangulo"
+            app:layout_constraintTop_toTopOf="@+id/imageViewRetangulo"></TextView>
 
         <TextView
             android:id="@+id/servico2_editar_perfil_reservas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="@string/Servicos"
+            android:text=""
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/black"
@@ -105,7 +106,7 @@
             android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="More Fonts..."
-            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintStart_toStartOf="@+id/imageViewRetangulo"
             app:layout_constraintTop_toBottomOf="@+id/servico_editar_perfil_reservas"></TextView>
 
         <TextView
@@ -114,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="50dp"
-            android:text="@string/Dia"
+            android:text=""
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/corPink"
@@ -122,7 +123,7 @@
             android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="More Fonts..."
-            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintStart_toStartOf="@+id/imageViewRetangulo"
             app:layout_constraintTop_toBottomOf="@+id/servico_editar_perfil_reservas"></TextView>
 
         <TextView
@@ -147,7 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:text="@string/Horario"
+            android:text=""
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/corPink"
@@ -155,7 +156,7 @@
             android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="More Fonts..."
-            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintStart_toStartOf="@+id/imageViewRetangulo"
             app:layout_constraintTop_toBottomOf="@+id/dia_reserva_perfil"></TextView>
 
         <TextView
@@ -181,7 +182,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="148dp"
-            android:text="@string/preco"
+            android:text=""
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/corPink"
@@ -190,7 +191,7 @@
             android:typeface="normal"
             app:fontFamily="More Fonts..."
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView21"></TextView>
+            app:layout_constraintTop_toTopOf="@+id/imageViewRetangulo"></TextView>
 
         <TextView
             android:id="@+id/preco_marcado_reserva_horario"
@@ -210,11 +211,11 @@
             app:layout_constraintTop_toTopOf="@+id/preco_reserva_perfil"></TextView>
 
         <TextView
-            android:id="@+id/cancelar_reserva_perfil"
+            android:id="@+id/cancelar_reserva_perfil1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="60dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/Cancelar"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -222,9 +223,26 @@
             android:textSize="25sp"
             android:textStyle="bold"
             android:typeface="normal"
+            android:onClick="excluirServico"
             app:fontFamily="More Fonts..."
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewRetangulo"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewRetangulo"></TextView>
+
+        <Button
+            android:id="@+id/botao_registrar"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="voltarServicosdePerfil"
+            android:text="@string/Voltar"
+            android:textColor="#000000"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"></TextView>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewRetangulo"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

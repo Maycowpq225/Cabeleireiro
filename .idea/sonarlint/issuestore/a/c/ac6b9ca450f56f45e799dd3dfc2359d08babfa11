@@ -1,11 +1,11 @@
 
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê’·Ñüÿÿÿÿ
+a
+java:S1192""FDefine a constant instead of duplicating this literal "senha" 4 times.(×ŒÓâıÿÿÿÿ
+t
+java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãáâÿÿÿÿÿ
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ–•€şÿÿÿÿ
 \
 java:S1192!"FDefine a constant instead of duplicating this literal "email" 4 times.(ú¶Û×
 ^
 java:S1192#"HDefine a constant instead of duplicating this literal "cliente" 3 times.(Œ¸¢‘
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê’·Ñüÿÿÿÿ
-t
-java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãáâÿÿÿÿÿ
-k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ–•€şÿÿÿÿ
-a
-java:S1192""FDefine a constant instead of duplicating this literal "senha" 4 times.(×ŒÓâıÿÿÿÿ

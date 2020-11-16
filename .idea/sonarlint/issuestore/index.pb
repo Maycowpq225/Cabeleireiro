@@ -21,3 +21,7 @@ Uapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/HorarioMarcadoActivit
 Oapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/CadastroActivity.java,8\4\846197c6256007d95022ab8e24050f33bfad67f9
 ~
 Napp/src/main/java/com/example/CabeleireiroAgendamento1/database/ScriptDLL.java,e\f\ef43e9bb47748b711c74f7da71b8a72dcda2af07
+…
+Uapp/src/main/java/com/example/CabeleireiroAgendamento1/dominio/entidades/Cliente.java,9\a\9a661e0586f338e6006b80d91aaf0bd7a63f8c14
+†
+Vapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/PerfilEReservasActivity.java,5\4\54d2fa269c3bff60eb6620cba5afea7f2d7df044
