@@ -7,10 +7,10 @@ import com.example.CabeleireiroAgendamento1.database.AgendamentoCabeleireiroOpen
 
 public class Cliente {
 
-    public Integer cliente_id;
-    public String nome;
-    public String email;
-    public String senha;
+    private Integer cliente_id;
+    private String nome;
+    private String email;
+    private String senha;
 
 
 
@@ -32,6 +32,10 @@ public class Cliente {
 
     public Integer getCliente_id() {
         return cliente_id;
+    }
+
+    public void setCliente_id(Integer cliente_id) {
+        this.cliente_id = cliente_id;
     }
 
     public String getNome() {

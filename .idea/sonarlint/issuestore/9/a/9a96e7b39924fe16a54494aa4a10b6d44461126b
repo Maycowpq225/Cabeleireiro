@@ -1,83 +1,83 @@
 
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(ÆÎ½Ç
 z	java:S116""YRename this field "checkbox_meat3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Œ°üÿÿÿÿ8ÒÒ—¥Û.
-Y
-java:S2696º"6Make the enclosing method "static" or remove this set.(”ÓÄñıÿÿÿÿ8©‘À Ü.
-N
-java:S1172Á"+Remove this unused method parameter "view".(àÔƒÚøÿÿÿÿ8û£¥Û.
-H
-java:S1172á"+Remove this unused method parameter "view".(Æ¢‰K8¾Öä›Ü.
-u	java:S116&"YRename this field "checkbox_meat7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃŞçÊ8ÒÒ—¥Û.
+M
+java:S1172{"+Remove this unused method parameter "view".(Æ•ÁÒûÿÿÿÿ8û£¥Û.
 I
 java:S1172‰"+Remove this unused method parameter "view".(’¾ˆå8û£¥Û.
-v
-java:S1450"YRemove the "mediaTempo" field and declare it as a local variable in the relevant methods.(ÍÌÛ8¨Ü‡¤Û.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ
-t	java:S116("YRename this field "checkbox_meat9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ×ûy8ÒÒ—¥Û.
-s
-java:S1450"VRemove the "servico" field and declare it as a local variable in the relevant methods.(´ñ¤•8¨Ü‡¤Û.
-z	java:S116!"YRename this field "checkbox_meat2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÍù·ûÿÿÿÿ8ÒÒ—¥Û.
-T
-java:S1135U"2Complete the task associated to this TODO comment.(‹ãú´ùÿÿÿÿ8ÈŒÄ Ü.
-z	java:S116 "YRename this field "checkbox_meat1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥˜îÕûÿÿÿÿ8ÒÒ—¥Û.
-{	java:S116)"ZRename this field "checkbox_meat10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯š’¼ûÿÿÿÿ8ÒÒ—¥Û.
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¥ûâ¤Û.
-Y
-java:S2696Ú"6Make the enclosing method "static" or remove this set.(³·öúÿÿÿÿ8©‘À Ü.
-N
-java:S1172‘"+Remove this unused method parameter "view".(òÌ¬¢ùÿÿÿÿ8û£¥Û.
-T
-java:S2696Ê"6Make the enclosing method "static" or remove this set.(À˜¦ï8©‘À Ü.
-Y
-java:S2696¢"6Make the enclosing method "static" or remove this set.(Äçäúÿÿÿÿ8©‘À Ü.
+U
+java:S1128"8Remove this unused import 'android.widget.CalendarView'.(úŞÒ¨8Ù¾¢¤Û.
 I
-java:S1172±"+Remove this unused method parameter "view".(Äëì‘8û£¥Û.
-Y
-java:S2696Ò"6Make the enclosing method "static" or remove this set.(â¼èÄùÿÿÿÿ8©‘À Ü.
-Y
-java:S2696š"6Make the enclosing method "static" or remove this set.(ä‰×˜şÿÿÿÿ8©‘À Ü.
-N
-java:S1172™"+Remove this unused method parameter "view".(ÈŒÙ„ùÿÿÿÿ8û£¥Û.
-T
-java:S2696Â"6Make the enclosing method "static" or remove this set.(Ì“Âå8©‘À Ü.
-Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(ÆÎ½Ç
-T
-java:S2696Š"6Make the enclosing method "static" or remove this set.(Àçûí8©‘À Ü.
-{	java:S116*"ZRename this field "checkbox_meat11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¯Öûÿÿÿÿ8ÒÒ—¥Û.
-z	java:S116#"YRename this field "checkbox_meat4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¦˜öøÿÿÿÿ8ÒÒ—¥Û.
+java:S1172"+Remove this unused method parameter "view".(ñ˜é8û£¥Û.
 O
 java:S1135L"2Complete the task associated to this TODO comment.(ù®„û8ÈŒÄ Ü.
+{	java:S116)"ZRename this field "checkbox_meat10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯š’¼ûÿÿÿÿ8ÒÒ—¥Û.
+T
+java:S2696Â"6Make the enclosing method "static" or remove this set.(Ì“Âå8©‘À Ü.
+Y
+java:S2696Ú"6Make the enclosing method "static" or remove this set.(³·öúÿÿÿÿ8©‘À Ü.
+z	java:S116#"YRename this field "checkbox_meat4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¦˜öøÿÿÿÿ8ÒÒ—¥Û.
+Y
+java:S2696º"6Make the enclosing method "static" or remove this set.(”ÓÄñıÿÿÿÿ8©‘À Ü.
+{	java:S116+"ZRename this field "checkbox_meat12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÊí²ÿÿÿÿÿ8ÒÒ—¥Û.
+I
+java:S1172¹"+Remove this unused method parameter "view".(˜µ8û£¥Û.
+v
+java:S1450"TRemove the "preco" field and declare it as a local variable in the relevant methods.(ïÃÏ—ûÿÿÿÿ8¨Ü‡¤Û.
+Y
+java:S2696š"6Make the enclosing method "static" or remove this set.(ä‰×˜şÿÿÿÿ8©‘À Ü.
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¥ûâ¤Û.
+u	java:S116%"YRename this field "checkbox_meat6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôû£©8ÒÒ—¥Û.
+N
+java:S1172‘"+Remove this unused method parameter "view".(òÌ¬¢ùÿÿÿÿ8û£¥Û.
+Y
+java:S2696¢"6Make the enclosing method "static" or remove this set.(Äçäúÿÿÿÿ8©‘À Ü.
+T
+java:S2696’"6Make the enclosing method "static" or remove this set.(ØŸô¬8©‘À Ü.
+s
+java:S1450"WRemove the "servico2" field and declare it as a local variable in the relevant methods.(°ô¼.8¨Ü‡¤Û.
+Y
+java:S2696Ò"6Make the enclosing method "static" or remove this set.(â¼èÄùÿÿÿÿ8©‘À Ü.
+H
+java:S1172á"+Remove this unused method parameter "view".(Æ¢‰K8¾Öä›Ü.
+N
+java:S1172Ñ"+Remove this unused method parameter "view".(¯¶¦ùÿÿÿÿ8û£¥Û.
+T
+java:S1135U"2Complete the task associated to this TODO comment.(‹ãú´ùÿÿÿÿ8ÈŒÄ Ü.
+v
+java:S1450"YRemove the "mediaTempo" field and declare it as a local variable in the relevant methods.(ÍÌÛ8¨Ü‡¤Û.
+{	java:S116*"ZRename this field "checkbox_meat11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¯Öûÿÿÿÿ8ÒÒ—¥Û.
+u	java:S116&"YRename this field "checkbox_meat7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃŞçÊ8ÒÒ—¥Û.
+T
+java:S2696‚"6Make the enclosing method "static" or remove this set.(×ºÓø8©‘À Ü.
+z	java:S116!"YRename this field "checkbox_meat2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÍù·ûÿÿÿÿ8ÒÒ—¥Û.
+u	java:S116$"YRename this field "checkbox_meat5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ª8ÒÒ—¥Û.
+N
+java:S1172™"+Remove this unused method parameter "view".(ÈŒÙ„ùÿÿÿÿ8û£¥Û.
+Y
+java:S2696²"6Make the enclosing method "static" or remove this set.(ºÈ¿ÿıÿÿÿÿ8©‘À Ü.
+s
+java:S1450"VRemove the "servico" field and declare it as a local variable in the relevant methods.(´ñ¤•8¨Ü‡¤Û.
+z	java:S116 "YRename this field "checkbox_meat1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥˜îÕûÿÿÿÿ8ÒÒ—¥Û.
+T
+java:S2696Š"6Make the enclosing method "static" or remove this set.(Àçûí8©‘À Ü.
+z	java:S116'"YRename this field "checkbox_meat8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘€ĞÙüÿÿÿÿ8ÒÒ—¥Û.
+I
+java:S1172©"+Remove this unused method parameter "view".(¸¥º²8û£¥Û.
+I
+java:S1172±"+Remove this unused method parameter "view".(Äëì‘8û£¥Û.
+t	java:S116("YRename this field "checkbox_meat9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ×ûy8ÒÒ—¥Û.
+T
+java:S2696Ê"6Make the enclosing method "static" or remove this set.(À˜¦ï8©‘À Ü.
+I
+java:S1172Ù"+Remove this unused method parameter "view".(Ùá‰“8û£¥Û.
+Y
+java:S2696ª"6Make the enclosing method "static" or remove this set.(ÍåıÅÿÿÿÿÿ8©‘À Ü.
 I
 java:S1172¡"+Remove this unused method parameter "view".(Àè¼¥8û£¥Û.
 N
-java:S1172Ñ"+Remove this unused method parameter "view".(¯¶¦ùÿÿÿÿ8û£¥Û.
-I
-java:S1172Ù"+Remove this unused method parameter "view".(Ùá‰“8û£¥Û.
-U
-java:S1128"8Remove this unused import 'android.widget.CalendarView'.(úŞÒ¨8Ù¾¢¤Û.
-T
-java:S2696‚"6Make the enclosing method "static" or remove this set.(×ºÓø8©‘À Ü.
-z	java:S116'"YRename this field "checkbox_meat8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘€ĞÙüÿÿÿÿ8ÒÒ—¥Û.
-u	java:S116$"YRename this field "checkbox_meat5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ª8ÒÒ—¥Û.
-T
-java:S2696’"6Make the enclosing method "static" or remove this set.(ØŸô¬8©‘À Ü.
-Y
-java:S2696²"6Make the enclosing method "static" or remove this set.(ºÈ¿ÿıÿÿÿÿ8©‘À Ü.
-{	java:S116+"ZRename this field "checkbox_meat12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÊí²ÿÿÿÿÿ8ÒÒ—¥Û.
-I
-java:S1172©"+Remove this unused method parameter "view".(¸¥º²8û£¥Û.
-u	java:S116%"YRename this field "checkbox_meat6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôû£©8ÒÒ—¥Û.
-v
-java:S1450"TRemove the "preco" field and declare it as a local variable in the relevant methods.(ïÃÏ—ûÿÿÿÿ8¨Ü‡¤Û.
-s
-java:S1450"WRemove the "servico2" field and declare it as a local variable in the relevant methods.(°ô¼.8¨Ü‡¤Û.
-I
-java:S1172"+Remove this unused method parameter "view".(ñ˜é8û£¥Û.
-I
-java:S1172¹"+Remove this unused method parameter "view".(˜µ8û£¥Û.
-Y
-java:S2696ª"6Make the enclosing method "static" or remove this set.(ÍåıÅÿÿÿÿÿ8©‘À Ü.
-M
-java:S1172{"+Remove this unused method parameter "view".(Æ•ÁÒûÿÿÿÿ8û£¥Û.
-N
 java:S1172É"+Remove this unused method parameter "view".(¯âè‹ûÿÿÿÿ8û£¥Û.
+N
+java:S1172Á"+Remove this unused method parameter "view".(àÔƒÚøÿÿÿÿ8û£¥Û.

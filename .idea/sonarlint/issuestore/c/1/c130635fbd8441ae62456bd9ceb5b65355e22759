@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á¨¯üÿÿÿÿ8¯ÎÁİŒ/
+c
+java:S1192p"FDefine a constant instead of duplicating this literal "email" 4 times.(ú¶Û×8¯ÎÁİŒ/
+
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ø×÷²8¯ÎÁİŒ/
+{
+java:S2293}"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãáâÿÿÿÿÿ8¯ÎÁİŒ/
+h
+java:S1192q"FDefine a constant instead of duplicating this literal "senha" 4 times.(×ŒÓâıÿÿÿÿ8¯ÎÁİŒ/
+]	java:S125("<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8Ã±ˆäŒ/
+J
+java:S4925)"-Remove this "Class.forName()", it is useless.(¶é“Ş8¢Ã¼âŒ/
+r	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ–•€şÿÿÿÿ8¯ÎÁİŒ/
+X	java:S125+"<This block of commented-out lines of code should be removed.(İÀá¼8Ã±ˆäŒ/

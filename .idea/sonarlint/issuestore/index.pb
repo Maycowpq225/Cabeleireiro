@@ -25,3 +25,9 @@ Napp/src/main/java/com/example/CabeleireiroAgendamento1/database/ScriptDLL.java
 Uapp/src/main/java/com/example/CabeleireiroAgendamento1/dominio/entidades/Cliente.java,9\a\9a661e0586f338e6006b80d91aaf0bd7a63f8c14
 †
 Vapp/src/main/java/com/example/CabeleireiroAgendamento1/Po/PerfilEReservasActivity.java,5\4\54d2fa269c3bff60eb6620cba5afea7f2d7df044
+–
+fapp/src/main/java/com/example/CabeleireiroAgendamento1/database/AgendamentoCabeleireiroOpenHelper.java,1\6\16a73c4ad09cc7ed56b3e50cbc108907ee2b4a19
+…
+Uapp/src/main/java/com/example/CabeleireiroAgendamento1/dominio/entidades/Reserva.java,e\3\e393ae358d11c22eb57dfa8ac7419138e1a258a0
+’
+bapp/src/main/java/com/example/CabeleireiroAgendamento1/dominio/repositorio/ReservaRepositorio.java,5\b\5b7f6ef35a474e6a861c28addcac8759c5bf0cbe

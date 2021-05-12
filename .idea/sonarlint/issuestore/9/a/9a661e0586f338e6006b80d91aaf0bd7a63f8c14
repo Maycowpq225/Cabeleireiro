@@ -1,24 +1,17 @@
 
-l
-java:S1104"QMake senha a static final constant or non-public and provide accessors if needed.(…‡İ£úÿÿÿÿ
-l
-java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëıÿÿÿÿ
-q
-java:S1104
-"VMake cliente_id a static final constant or non-public and provide accessors if needed.(ñ‰Ò„ùÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ÊØšøÿÿÿÿ
-f
-java:S1104"PMake nome a static final constant or non-public and provide accessors if needed.(µ©Ñ¸
-o	java:S116
-"URename this field "cliente_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ‰Ò„ùÿÿÿÿ
-^
-java:S1128"CRemove this unused import 'android.database.sqlite.SQLiteDatabase'.(ãµèÈùÿÿÿÿ
-U
-java:S1128":Remove this unused import 'android.database.SQLException'.(ø‹çëşÿÿÿÿ
-‡
-java:S1128"lRemove this unused import 'com.example.CabeleireiroAgendamento1.database.AgendamentoCabeleireiroOpenHelper'.(‚İ±ºúÿÿÿÿ
 
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ççè8¢à¯Ü.
 £
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áíßÌúÿÿÿÿ8¢à¯Ü.
+j	java:S116
+"URename this field "cliente_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‹¿ã
+U
+java:S1128":Remove this unused import 'android.database.SQLException'.(ø‹çëşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ÊØšøÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'android.database.sqlite.SQLiteDatabase'.(ãµèÈùÿÿÿÿ
+‡
+java:S1128"lRemove this unused import 'com.example.CabeleireiroAgendamento1.database.AgendamentoCabeleireiroOpenHelper'.(‚İ±ºúÿÿÿÿ
 j	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’×ËŞ8¢à¯Ü.
+m	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã™àİ8¢ÚĞ“/
+j	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã™àİ8¢ÚĞ“/

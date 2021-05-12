@@ -1,29 +1,27 @@
 
-v
-java:S1450"TRemove the "preco" field and declare it as a local variable in the relevant methods.(ïÃÏ—ûÿÿÿÿ8Á·´ Ü.
+W
+java:S1128	"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ8ª¯íÎ“/
 €
-java:S3008"cRename this field "precoPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÍ¢£8ÅƒŠŸÜ.
+java:S3008"cRename this field "precoPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÍ¢£8ÅƒŠŸÜ.
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º™Á8ª¯íÎ“/
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º™Á8ª¯íÎ“/
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º™Á8ª¯íÎ“/
+ƒ
+java:S1450"aRemove the "textViewNomePerfil" field and declare it as a local variable in the relevant methods.(ÌÌİÆşÿÿÿÿ8ª¯íÎ“/
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º™Á8ª¯íÎ“/
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º™Á8ª¯íÎ“/
+H
+java:S1172E"+Remove this unused method parameter "view".(òÈï8ª¯íÎ“/
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(¼ÕÖÁ
+‡
+java:S3008"eRename this field "horarioPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îóŞûÿÿÿÿ8ğÀ›ŸÜ.
+‡
+java:S3008"eRename this field "servicoPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒŞÑøÿÿÿÿ8ºùŸÜ.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òê‡ùÿÿÿÿ
-s
-java:S1450"VRemove the "servico" field and declare it as a local variable in the relevant methods.(´ñ¤•8ªÂ¤ Ü.
-‡
-java:S3008"eRename this field "servicoPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒŞÑøÿÿÿÿ8ºùŸÜ.
+„
+java:S3008"bRename this field "NomePerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÎÓóÿÿÿÿÿ8ª¯íÎ“/
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º™Á8ª¯íÎ“/
 ƒ
-java:S3008"aRename this field "diaPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÁÂ„ÿÿÿÿÿ8»ÀŠŸÜ.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù…Ñë8¥Ú— Ü.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù…Ñë8¥Ú— Ü.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù…Ñë8®ˆ– Ü.
-Q	java:S110
-"<This class has 9 parents which is greater than 5 authorized.(¼ÕÖÁ
-t
-java:S1450"RRemove the "dia" field and declare it as a local variable in the relevant methods.(©¥Êøÿÿÿÿ8¸—® Ü.
-s
-java:S1450"VRemove the "horario" field and declare it as a local variable in the relevant methods.(Âü°¢8ÀÄ¸ Ü.
+java:S3008"fRename this field "servico2PerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯´ÛÇ8õÙÛŸÜ.
 ƒ
-java:S3008"fRename this field "servico2PerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯´ÛÇ8õÙÛŸÜ.
-s
-java:S1450"WRemove the "servico2" field and declare it as a local variable in the relevant methods.(°ô¼.8Èı« Ü.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù…Ñë8®ˆ– Ü.
-‡
-java:S3008"eRename this field "horarioPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îóŞûÿÿÿÿ8ğÀ›ŸÜ.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù…Ñë8®ˆ– Ü.
+java:S3008"aRename this field "diaPerfilReserva_mudar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÁÂ„ÿÿÿÿÿ8»ÀŠŸÜ.

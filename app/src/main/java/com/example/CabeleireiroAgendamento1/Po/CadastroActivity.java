@@ -60,7 +60,7 @@ public class CadastroActivity extends AppCompatActivity {
         if (!nome.equalsIgnoreCase("") && !email.equalsIgnoreCase("") && !senha.equalsIgnoreCase("") && senha.equals(senha2)) {
 
             cliente = new Cliente(nome, email, senha);
-            if (clienteRepositorio.buscarCliente(cliente.email).getEmail() == null) {
+            if (clienteRepositorio.buscarCliente(cliente.getEmail()).getEmail() == null) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(this);
                 dlg.setTitle("Sucesso!");
                 dlg.setIcon(R.drawable.ic_baseline_done_24);
@@ -77,7 +77,7 @@ public class CadastroActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Toast.makeText(getApplicationContext(), "Sua conta foi criada com sucesso!!", Toast.LENGTH_LONG).show();
-                        clienteRepositorio.inserir(cliente);
+                        clienteRepositorio.inserirCliente(cliente);
                         voltarParaMain();
                     }
                 });

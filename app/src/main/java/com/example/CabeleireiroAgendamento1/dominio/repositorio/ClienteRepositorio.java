@@ -4,6 +4,8 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import com.example.CabeleireiroAgendamento1.dominio.entidades.Cliente;
+import com.example.CabeleireiroAgendamento1.dominio.entidades.Reserva;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,13 +29,14 @@ public class ClienteRepositorio {
      *
      * @param cliente cliente a ser inserido no banco
      */
-    public void inserir(Cliente cliente) {
+    public void inserirCliente(Cliente cliente) {
         ContentValues contentValues = new ContentValues();
-        contentValues.put("nome", cliente.nome);
-        contentValues.put("email", cliente.email);
-        contentValues.put("senha", cliente.senha);
+        contentValues.put("nome", cliente.getNome());
+        contentValues.put("email", cliente.getEmail());
+        contentValues.put("senha", cliente.getSenha());
         conexao.insertOrThrow("cliente", null, contentValues);
     }
+
 
     /**
      * Exclui um cliente do banco de dados
@@ -53,11 +56,11 @@ public class ClienteRepositorio {
      */
     public void alterar(Cliente cliente) {
         ContentValues contentValues = new ContentValues();
-        contentValues.put("nome", cliente.nome);
-        contentValues.put("email", cliente.email);
-        contentValues.put("senha", cliente.senha);
+        contentValues.put("nome", cliente.getNome());
+        contentValues.put("email", cliente.getEmail());
+        contentValues.put("senha", cliente.getSenha());
         String[] parametros = new String[1];
-        parametros[0] = String.valueOf(cliente.cliente_id);
+        parametros[0] = String.valueOf(cliente.getCliente_id());
         conexao.update("cliente", contentValues, "cliente_id = ?", parametros);
     }
 
@@ -76,9 +79,9 @@ public class ClienteRepositorio {
             resultado.moveToFirst();
             do {
                 Cliente cli = new Cliente();
-                cli.nome = resultado.getString(resultado.getColumnIndexOrThrow("nome"));
-                cli.email = resultado.getString(resultado.getColumnIndexOrThrow("email"));
-                cli.senha = resultado.getString(resultado.getColumnIndexOrThrow("senha"));
+                cli.setNome(resultado.getString(resultado.getColumnIndexOrThrow("nome")));
+                cli.setEmail(resultado.getString(resultado.getColumnIndexOrThrow("email")));
+                cli.setSenha(resultado.getString(resultado.getColumnIndexOrThrow("senha")));
 
                 clientes.add(cli);
             } while (resultado.moveToNext());
@@ -87,7 +90,7 @@ public class ClienteRepositorio {
     }
 
     /**
-     * faz uma busca no banco de dados procurando por um cliente
+     * faz uma busca no banco de dados procurando por um cliente pelo email
      *
      * @param email email do cliente a ser procurado
      * @return retorna um cliente
@@ -103,10 +106,35 @@ public class ClienteRepositorio {
         Cursor resultado = conexao.rawQuery(sql.toString(), parametros);
         if (resultado.getCount() > 0) {
             resultado.moveToFirst();
-            cliente.cliente_id = resultado.getInt(resultado.getColumnIndexOrThrow("cliente_id"));
-            cliente.nome = resultado.getString(resultado.getColumnIndexOrThrow("nome"));
-            cliente.email = resultado.getString(resultado.getColumnIndexOrThrow("email"));
-            cliente.senha = resultado.getString(resultado.getColumnIndexOrThrow("senha"));
+            cliente.setCliente_id(resultado.getInt(resultado.getColumnIndexOrThrow("cliente_id")));
+            cliente.setNome(resultado.getString(resultado.getColumnIndexOrThrow("nome")));
+            cliente.setEmail(resultado.getString(resultado.getColumnIndexOrThrow("email")));
+            cliente.setSenha(resultado.getString(resultado.getColumnIndexOrThrow("senha")));
+        }
+        return cliente;
+    }
+
+    /**
+     * faz uma busca no banco de dados procurando por um cliente pelo cliente_id
+     *
+     * @param cliente_id do cliente a ser procurado
+     * @return retorna um cliente
+     */
+    public Cliente buscarClientePorId(String cliente_id) {
+        Cliente cliente = new Cliente();
+        StringBuilder sql = new StringBuilder();
+        sql.append("SELECT cliente_id, nome, email, senha ");
+        sql.append("FROM cliente ");
+        sql.append("WHERE cliente_id = ?");
+        String[] parametros = new String[1];
+        parametros[0] = String.valueOf(cliente_id);
+        Cursor resultado = conexao.rawQuery(sql.toString(), parametros);
+        if (resultado.getCount() > 0) {
+            resultado.moveToFirst();
+            cliente.setCliente_id(resultado.getInt(resultado.getColumnIndexOrThrow("cliente_id")));
+            cliente.setNome(resultado.getString(resultado.getColumnIndexOrThrow("nome")));
+            cliente.setEmail(resultado.getString(resultado.getColumnIndexOrThrow("email")));
+            cliente.setSenha(resultado.getString(resultado.getColumnIndexOrThrow("senha")));
         }
         return cliente;
     }

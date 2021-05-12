@@ -1,11 +1,14 @@
 
+t
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãáâÿÿÿÿÿ
+k	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ–•€şÿÿÿÿ
+^
+java:S1192%"HDefine a constant instead of duplicating this literal "cliente" 3 times.(Œ¸¢‘
+a
+java:S1192#"FDefine a constant instead of duplicating this literal "email" 5 times.(›û¥üøÿÿÿÿ
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê’·Ñüÿÿÿÿ
 a
-java:S1192""FDefine a constant instead of duplicating this literal "senha" 4 times.(×ŒÓâıÿÿÿÿ
-t
-java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãáâÿÿÿÿÿ
-k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ–•€şÿÿÿÿ
-\
-java:S1192!"FDefine a constant instead of duplicating this literal "email" 4 times.(ú¶Û×
-^
-java:S1192#"HDefine a constant instead of duplicating this literal "cliente" 3 times.(Œ¸¢‘
+java:S1192$"FDefine a constant instead of duplicating this literal "senha" 5 times.(…ÿÄìùÿÿÿÿ
+r	java:S117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü©˜Æÿÿÿÿÿ8íÄ…Ñ“/
+}
+java:S1128"[Remove this unused import 'com.example.CabeleireiroAgendamento1.dominio.entidades.Reserva'.(îïÊ•ıÿÿÿÿ8ôøàĞ“/

@@ -22,6 +22,7 @@ public class AgendamentoCabeleireiroOpenHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
         db.execSQL(ScriptDLL.getCreateTableCliente());
+        db.execSQL(ScriptDLL.createTableReservas());
 
     }
 
