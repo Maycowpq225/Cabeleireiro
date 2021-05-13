@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
            PerfilEReservasActivity.NomePerfilReserva_mudar = cliente.getNome();
            Intent intent = new Intent(this, ServicesActivity.class);
            startActivity(intent);
+           fecharConexao(this);
            this.finish();
         }else{
             AlertDialog.Builder dlg = new AlertDialog.Builder(this);
@@ -74,6 +75,25 @@ public class MainActivity extends AppCompatActivity {
             agendamentoCabeleireiroOpenHelper = new AgendamentoCabeleireiroOpenHelper(context);
             conexao = agendamentoCabeleireiroOpenHelper.getWritableDatabase();
             clienteRepositorio = new ClienteRepositorio(conexao);
+        } catch (SQLException ex) {
+            AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+            dlg.setTitle("erro");
+            dlg.setIcon(R.drawable.ic_baseline_error_24);
+            dlg.setMessage(ex.getMessage());
+            dlg.setNeutralButton("OK", null);
+            dlg.show();
+        }
+    }
+
+    /**
+     * fecha a conexão com o banco de dados
+     *
+     * @param context activity a ser fechada
+     */
+    public void fecharConexao(Context context) {
+        try {
+            agendamentoCabeleireiroOpenHelper.close();
+            conexao.close();
         } catch (SQLException ex) {
             AlertDialog.Builder dlg = new AlertDialog.Builder(this);
             dlg.setTitle("erro");

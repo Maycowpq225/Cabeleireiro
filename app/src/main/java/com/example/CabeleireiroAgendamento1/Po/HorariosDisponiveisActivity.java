@@ -1,9 +1,13 @@
 package com.example.CabeleireiroAgendamento1.Po;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Context;
 import android.content.Intent;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,10 +18,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.CabeleireiroAgendamento1.R;
+import com.example.CabeleireiroAgendamento1.database.AgendamentoCabeleireiroOpenHelper;
+import com.example.CabeleireiroAgendamento1.dominio.entidades.Reserva;
+import com.example.CabeleireiroAgendamento1.dominio.repositorio.ClienteRepositorio;
+import com.example.CabeleireiroAgendamento1.dominio.repositorio.ReservaRepositorio;
 
 import java.util.List;
 
 public class HorariosDisponiveisActivity extends AppCompatActivity {
+
+    private SQLiteDatabase conexao;
+    ReservaRepositorio reservaRepositorio;
+    private AgendamentoCabeleireiroOpenHelper agendamentoCabeleireiroOpenHelper;
 
     static String servicoMudar1;
     static String servicoMudar21;
@@ -63,7 +75,48 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
         checkbox_meat11 = findViewById(R.id.checkbox_meat11);
         checkbox_meat12 = findViewById(R.id.checkbox_meat12);
         checkBoxes = new CheckBox[]{checkbox_meat1, checkbox_meat2, checkbox_meat3, checkbox_meat4, checkbox_meat5, checkbox_meat6, checkbox_meat7, checkbox_meat8, checkbox_meat9, checkbox_meat10, checkbox_meat11, checkbox_meat12};
+        criarConexao(this);
     }
+
+    /**
+     * fecha a conexão com o banco de dados
+     *
+     * @param context activity a ser fechada
+     */
+    public void fecharConexao(Context context) {
+        try {
+            agendamentoCabeleireiroOpenHelper.close();
+            conexao.close();
+        } catch (SQLException ex) {
+            AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+            dlg.setTitle("erro");
+            dlg.setIcon(R.drawable.ic_baseline_error_24);
+            dlg.setMessage(ex.getMessage());
+            dlg.setNeutralButton("OK", null);
+            dlg.show();
+        }
+    }
+
+    /**
+     * Cria a conexão com o banco de dados
+     *
+     * @param context activity a ser conectada
+     */
+    public void criarConexao(Context context) {
+        try {
+            agendamentoCabeleireiroOpenHelper = new AgendamentoCabeleireiroOpenHelper(context);
+            conexao = agendamentoCabeleireiroOpenHelper.getWritableDatabase();
+            reservaRepositorio = new ReservaRepositorio(conexao);
+        } catch (SQLException ex) {
+            AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+            dlg.setTitle("erro");
+            dlg.setIcon(R.drawable.ic_baseline_error_24);
+            dlg.setMessage(ex.getMessage());
+            dlg.setNeutralButton("OK", null);
+            dlg.show();
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu (Menu menu) {
         getMenuInflater().inflate(R.menu.activity_menu, menu);
@@ -225,6 +278,7 @@ public class HorariosDisponiveisActivity extends AppCompatActivity {
     public void horarioMarcadoComSucesso(View view){
         Intent intent = new Intent(this, HorarioMarcadoActivity.class);
         startActivity(intent);
+        fecharConexao(this);
         this.finish();
     }
 }
